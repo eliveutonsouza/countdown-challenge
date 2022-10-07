@@ -1,0 +1,89 @@
+/* Styled content cowntdown */
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.105em;
+
+  color: var(--text-title-color);
+
+  margin-bottom: 1.9rem;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 1.4rem;
+
+  color: #9c9ab6;
+
+  margin-bottom: 3.1rem;
+}
+
+.content button {
+  margin-top: 2rem;
+  padding: 1.3rem 3.2rem;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  color: var(--text-color-light);
+  background: var(--bg-color-button);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.countdown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 4.6rem;
+  gap: 3rem;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dual-dots,
+.time span {
+  font-size: 7rem;
+  color: var(--text-color-dark);
+}
+
+.time .subtitle {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+/* Styled content Image */
+
+.ilustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  :root {
+    font-size: 30%;
+  }
+
+  .ilustration {
+    width: 50rem;
+  }
+
+  body {
+    background: none;
+  }
+}
