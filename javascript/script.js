@@ -1,6 +1,6 @@
 import Countdown from "./module/countdown.js";
 
-const diasParaONatal = new Countdown("24 December 2022 23:59:59 GMT-0300");
+const diasParaONatal = new Countdown("31 December 2024 23:59:59 GMT-0300");
 
 // Seta um intervalo de 1seg para
 // atualizar as info
